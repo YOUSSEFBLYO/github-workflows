@@ -2,10 +2,14 @@
   "name": "js-mastery-devops-course",
   "version": "1.0.0",
   "description": "",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev":"node --watch index.js"
+    "dev": "node --watch src/index.js",
+    "lint":" eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "repository": {
     "type": "git",
@@ -14,7 +18,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/YOUSSEFBLYO/github-workflows/issues"
   },
@@ -22,5 +25,12 @@
   "dependencies": {
     "dotenv": "^18.0.4",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "prettier": "^3.9.9"
   }
 }
