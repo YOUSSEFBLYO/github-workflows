@@ -1,0 +1,26 @@
+{
+  "name": "js-mastery-devops-course",
+  "version": "1.0.0",
+  "description": "",
+  "type":"module",
+  "main": "index.js",
+  "scripts": {
+    "dev":"node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUSSEFBLYO/github-workflows.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/YOUSSEFBLYO/github-workflows/issues"
+  },
+  "homepage": "https://github.com/YOUSSEFBLYO/github-workflows#readme",
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1"
+  }
+}
